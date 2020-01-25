@@ -14,7 +14,7 @@ public class EmployeeController {
         this.employeeRepository = employeeRepository;
     }
 
-    @RequestMapping("/books")
+    @RequestMapping("/employees")
     public String getEmployees(Model model){
         model.addAttribute("employees", employeeRepository.findAll());
         return "employees";
