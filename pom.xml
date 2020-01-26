@@ -15,7 +15,7 @@
 
     <groupId>pro.longhi</groupId>
     <artifactId>careers</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>careers</name>
     <description>Spring Application for Careers</description>
 
