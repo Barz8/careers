@@ -40,7 +40,7 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/Barz8/careers.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:Barz8/careers.git</developerConnection>
       <tag>careers-0.0.1</tag>
   </scm>
 
