@@ -15,7 +15,7 @@
 
     <groupId>pro.longhi</groupId>
     <artifactId>careers</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>careers</name>
     <description>Spring Application for Careers</description>
 
@@ -41,7 +41,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/Barz8/careers.git</developerConnection>
-      <tag>careers-0.0.2</tag>
+      <tag>careers-0.0.1</tag>
   </scm>
 
 </project>
