@@ -2,12 +2,7 @@ package pro.longhi.careers.services;
 
 import pro.longhi.careers.model.Employee;
 
-import java.util.Set;
-
-public interface EmployeeService {
+public interface EmployeeService extends CrudService<Employee, Long>{
 
     Employee findByLastName(String lastName);
-    Employee findById(Long id);
-    Employee save(Employee employee);
-    Set<Employee> findAll();
 }

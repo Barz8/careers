@@ -3,20 +3,21 @@ package pro.longhi.careers.controllers;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import pro.longhi.careers.repositories.EmployeeRepository;
+import pro.longhi.careers.services.EmployeeService;
 
+@RequestMapping("/employees")
 @Controller
 public class EmployeeController {
 
-    private EmployeeRepository employeeRepository;
+    private EmployeeService employeeService;
 
-    public EmployeeController(EmployeeRepository employeeRepository) {
-        this.employeeRepository = employeeRepository;
+    public EmployeeController(EmployeeService employeeService) {
+        this.employeeService = employeeService;
     }
 
-    @RequestMapping("/employees")
+    @RequestMapping("")
     public String getEmployees(Model model){
-        model.addAttribute("employees", employeeRepository.findAll());
+        model.addAttribute("employees", employeeService.findAll());
         return "employees";
     }
 }

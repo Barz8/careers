@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Entity
-public class Employee {
+public class Employee extends BaseEntity{
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

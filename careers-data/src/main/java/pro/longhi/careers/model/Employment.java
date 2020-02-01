@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-public class Employment {
+public class Employment extends BaseEntity{
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
